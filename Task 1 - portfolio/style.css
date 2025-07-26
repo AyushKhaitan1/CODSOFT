@@ -1,0 +1,227 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header1{
+    height:3.5rem;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:gray;
+    padding: 0 2rem;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+}
+
+#portfolio{
+    color: aqua;
+}
+
+.h1:hover {
+    color: aqua;
+    border:0.1rem solid aqua;
+}
+
+#div1{
+    background-color: white;
+    height:40rem;
+    width:100%;
+    padding: 2rem 1rem;
+}
+
+#content{
+    padding:10rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    text-align: left;
+}
+
+#ayush{
+    color:aqua;
+}
+
+#myimage{
+    height:20rem;
+    width:20rem;
+    border-radius:50%;
+    box-shadow:0 0 1.5rem aqua;
+}
+
+#buttons{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+    flex-wrap: nowrap;
+    margin-top: 1rem;
+}
+
+#hireme{
+    color:white;
+    background-color:black;
+}
+
+#hireme:hover{
+    background-color: white;
+    color:black;
+    border:0.2rem solid aqua;
+}
+
+#experience{
+    color:white;
+    background-color: aqua;
+}
+
+#experience:hover{
+    background-color: white;
+    color:aqua;
+    border:0.2rem solid black;
+}
+
+#div2{
+    background-color:black;
+    color: white;
+    height:43rem;
+    width:100%;
+    padding: 2rem 1rem;
+}
+
+#aboutme{
+    padding:10rem;
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    text-align: left;
+}
+
+#myimage1{
+    height:20rem;
+    width:20rem;
+    margin-right:2rem;
+    border-radius:50%;
+}
+
+#myimage1:hover{
+    box-shadow:0 0 1rem aqua;
+}
+
+#fd{
+    color: aqua;
+}
+
+#projects1{
+    color:white;
+    background-color: aqua;
+    height:2rem;
+}
+
+#projects1:hover{
+    background-color: white;
+    color:aqua;
+}
+
+#div3{
+    color:black;
+    height:42rem;
+    width:100%;
+    padding: 2rem 1rem;
+}
+
+#me{
+    color: aqua;
+}
+
+#contactme{
+    padding-top:3rem;
+    text-align: center;
+}
+
+#form1 {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 60%;
+    max-width: 400px;
+    margin: auto;
+}
+
+#submitmsg{
+    width:7rem;
+    color: white;
+    background-color: black;
+}
+
+#submitmsg:hover{
+    background-color: white;
+    color: aqua;
+    border:0.2rem solid aqua;
+}
+
+#div4{
+    height: 2.5rem;
+    background-color:grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#social{
+    border-radius: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+#div5{
+    text-align: center;
+    height:3rem;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    #header1 {
+        flex-direction: column;
+        height: auto;
+        padding: 1rem 0;
+    }
+    
+    .h1 {
+        margin: 0.5rem 0;
+    }
+    
+    #content {
+        flex-direction: column;
+        padding: 2rem 1rem;
+        text-align: center;
+    }
+    
+    #aboutme {
+        flex-direction: column;
+        padding: 2rem 1rem;
+        text-align: center;
+    }
+    
+    #form1 {
+        width: 100%;
+    }
+    
+    #div4{
+        flex-direction: column;
+        height: auto;
+        padding: 1rem 0;
+    }
+    
+    #div5{
+        height: auto;
+        padding: 1rem 0;
+    }
+}
